@@ -8,7 +8,7 @@
 
 <script>
   export default {}
-  document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
     let fontSize = window.innerWidth / 10
     fontSize = fontSize > 50 ? 50 : fontSize
     const html = document.querySelector('html')
